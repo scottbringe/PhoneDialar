@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBC727071ACF1D6F00A7D5FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC727061ACF1D6F00A7D5FA /* AppDelegate.swift */; };
+		EBC7270A1ACF1D6F00A7D5FA /* PhoneDialar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBC727081ACF1D6F00A7D5FA /* PhoneDialar.xcdatamodeld */; };
+		EBC7270C1ACF1D6F00A7D5FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC7270B1ACF1D6F00A7D5FA /* ViewController.swift */; };
+		EBC7270F1ACF1D6F00A7D5FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC7270D1ACF1D6F00A7D5FA /* Main.storyboard */; };
+		EBC727111ACF1D6F00A7D5FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC727101ACF1D6F00A7D5FA /* Images.xcassets */; };
+		EBC727141ACF1D6F00A7D5FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBC727121ACF1D6F00A7D5FA /* LaunchScreen.xib */; };
+		EBC727201ACF1D6F00A7D5FA /* PhoneDialarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC7271F1ACF1D6F00A7D5FA /* PhoneDialarTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBC7271A1ACF1D6F00A7D5FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBC726F91ACF1D6F00A7D5FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBC727001ACF1D6F00A7D5FA;
+			remoteInfo = PhoneDialar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBC727011ACF1D6F00A7D5FA /* PhoneDialar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneDialar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC727051ACF1D6F00A7D5FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBC727061ACF1D6F00A7D5FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBC727091ACF1D6F00A7D5FA /* PhoneDialar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhoneDialar.xcdatamodel; sourceTree = "<group>"; };
+		EBC7270B1ACF1D6F00A7D5FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBC7270E1ACF1D6F00A7D5FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBC727101ACF1D6F00A7D5FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBC727131ACF1D6F00A7D5FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EBC727191ACF1D6F00A7D5FA /* PhoneDialarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneDialarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC7271E1ACF1D6F00A7D5FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBC7271F1ACF1D6F00A7D5FA /* PhoneDialarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneDialarTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBC726FE1ACF1D6F00A7D5FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC727161ACF1D6F00A7D5FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBC726F81ACF1D6F00A7D5FA = {
+			isa = PBXGroup;
+			children = (
+				EBC727031ACF1D6F00A7D5FA /* PhoneDialar */,
+				EBC7271C1ACF1D6F00A7D5FA /* PhoneDialarTests */,
+				EBC727021ACF1D6F00A7D5FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBC727021ACF1D6F00A7D5FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBC727011ACF1D6F00A7D5FA /* PhoneDialar.app */,
+				EBC727191ACF1D6F00A7D5FA /* PhoneDialarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBC727031ACF1D6F00A7D5FA /* PhoneDialar */ = {
+			isa = PBXGroup;
+			children = (
+				EBC727061ACF1D6F00A7D5FA /* AppDelegate.swift */,
+				EBC7270B1ACF1D6F00A7D5FA /* ViewController.swift */,
+				EBC7270D1ACF1D6F00A7D5FA /* Main.storyboard */,
+				EBC727101ACF1D6F00A7D5FA /* Images.xcassets */,
+				EBC727121ACF1D6F00A7D5FA /* LaunchScreen.xib */,
+				EBC727081ACF1D6F00A7D5FA /* PhoneDialar.xcdatamodeld */,
+				EBC727041ACF1D6F00A7D5FA /* Supporting Files */,
+			);
+			path = PhoneDialar;
+			sourceTree = "<group>";
+		};
+		EBC727041ACF1D6F00A7D5FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBC727051ACF1D6F00A7D5FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBC7271C1ACF1D6F00A7D5FA /* PhoneDialarTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBC7271F1ACF1D6F00A7D5FA /* PhoneDialarTests.swift */,
+				EBC7271D1ACF1D6F00A7D5FA /* Supporting Files */,
+			);
+			path = PhoneDialarTests;
+			sourceTree = "<group>";
+		};
+		EBC7271D1ACF1D6F00A7D5FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBC7271E1ACF1D6F00A7D5FA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBC727001ACF1D6F00A7D5FA /* PhoneDialar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC727231ACF1D6F00A7D5FA /* Build configuration list for PBXNativeTarget "PhoneDialar" */;
+			buildPhases = (
+				EBC726FD1ACF1D6F00A7D5FA /* Sources */,
+				EBC726FE1ACF1D6F00A7D5FA /* Frameworks */,
+				EBC726FF1ACF1D6F00A7D5FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneDialar;
+			productName = PhoneDialar;
+			productReference = EBC727011ACF1D6F00A7D5FA /* PhoneDialar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBC727181ACF1D6F00A7D5FA /* PhoneDialarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC727261ACF1D6F00A7D5FA /* Build configuration list for PBXNativeTarget "PhoneDialarTests" */;
+			buildPhases = (
+				EBC727151ACF1D6F00A7D5FA /* Sources */,
+				EBC727161ACF1D6F00A7D5FA /* Frameworks */,
+				EBC727171ACF1D6F00A7D5FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBC7271B1ACF1D6F00A7D5FA /* PBXTargetDependency */,
+			);
+			name = PhoneDialarTests;
+			productName = PhoneDialarTests;
+			productReference = EBC727191ACF1D6F00A7D5FA /* PhoneDialarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBC726F91ACF1D6F00A7D5FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Scott Bringe";
+				TargetAttributes = {
+					EBC727001ACF1D6F00A7D5FA = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					EBC727181ACF1D6F00A7D5FA = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EBC727001ACF1D6F00A7D5FA;
+					};
+				};
+			};
+			buildConfigurationList = EBC726FC1ACF1D6F00A7D5FA /* Build configuration list for PBXProject "PhoneDialar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBC726F81ACF1D6F00A7D5FA;
+			productRefGroup = EBC727021ACF1D6F00A7D5FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBC727001ACF1D6F00A7D5FA /* PhoneDialar */,
+				EBC727181ACF1D6F00A7D5FA /* PhoneDialarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBC726FF1ACF1D6F00A7D5FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC7270F1ACF1D6F00A7D5FA /* Main.storyboard in Resources */,
+				EBC727141ACF1D6F00A7D5FA /* LaunchScreen.xib in Resources */,
+				EBC727111ACF1D6F00A7D5FA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC727171ACF1D6F00A7D5FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBC726FD1ACF1D6F00A7D5FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC7270C1ACF1D6F00A7D5FA /* ViewController.swift in Sources */,
+				EBC727071ACF1D6F00A7D5FA /* AppDelegate.swift in Sources */,
+				EBC7270A1ACF1D6F00A7D5FA /* PhoneDialar.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC727151ACF1D6F00A7D5FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC727201ACF1D6F00A7D5FA /* PhoneDialarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBC7271B1ACF1D6F00A7D5FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBC727001ACF1D6F00A7D5FA /* PhoneDialar */;
+			targetProxy = EBC7271A1ACF1D6F00A7D5FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBC7270D1ACF1D6F00A7D5FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBC7270E1ACF1D6F00A7D5FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBC727121ACF1D6F00A7D5FA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBC727131ACF1D6F00A7D5FA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBC727211ACF1D6F00A7D5FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBC727221ACF1D6F00A7D5FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBC727241ACF1D6F00A7D5FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhoneDialar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBC727251ACF1D6F00A7D5FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhoneDialar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBC727271ACF1D6F00A7D5FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhoneDialarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneDialar.app/PhoneDialar";
+			};
+			name = Debug;
+		};
+		EBC727281ACF1D6F00A7D5FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhoneDialarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneDialar.app/PhoneDialar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBC726FC1ACF1D6F00A7D5FA /* Build configuration list for PBXProject "PhoneDialar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC727211ACF1D6F00A7D5FA /* Debug */,
+				EBC727221ACF1D6F00A7D5FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBC727231ACF1D6F00A7D5FA /* Build configuration list for PBXNativeTarget "PhoneDialar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC727241ACF1D6F00A7D5FA /* Debug */,
+				EBC727251ACF1D6F00A7D5FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBC727261ACF1D6F00A7D5FA /* Build configuration list for PBXNativeTarget "PhoneDialarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC727271ACF1D6F00A7D5FA /* Debug */,
+				EBC727281ACF1D6F00A7D5FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EBC727081ACF1D6F00A7D5FA /* PhoneDialar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBC727091ACF1D6F00A7D5FA /* PhoneDialar.xcdatamodel */,
+			);
+			currentVersion = EBC727091ACF1D6F00A7D5FA /* PhoneDialar.xcdatamodel */;
+			path = PhoneDialar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EBC726F91ACF1D6F00A7D5FA /* Project object */;
+}
