@@ -16,40 +16,66 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.thePhoneNumber.keyboardType = UIKeyboardType.PhonePad
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-    @IBAction func doDialNumber(sender: AnyObject) { dialedNumber.text = "URL " + thePhoneNumber.text
-        let busPhone = thePhoneNumber.text
-        if let url = NSURL(string: "tel://\(busPhone)") {
-            UIApplication.sharedApplication().openURL(url)
+    @IBAction func doDialNumber(sender: AnyObject) {
+        var enteredNumber: NSString = ""
+        var validNumber: Bool = false
+        enteredNumber = thePhoneNumber.text
+        if (enteredNumber.length > 0) {
+            if (enteredNumber.length == 7){
+                // add 1 + area code
+                enteredNumber = "1850" + enteredNumber
+                dialedNumber.text = enteredNumber
+                validNumber = true
+            }
+            else if (enteredNumber.length == 10){
+                // add 1
+                enteredNumber = "1" + enteredNumber
+                dialedNumber.text = enteredNumber
+                validNumber = true
+            }
+            else if (enteredNumber.length == 11) {
+                // valid phone number length
+                dialedNumber.text = enteredNumber
+                validNumber = true
+            }
+            else {
+                dialedNumber.text = "Invalid phone number."
+                validNumber = false
+            }
+        
+        } else {
+            dialedNumber.text = "Please enter a phone number."
+            validNumber = false
+        }
+        if validNumber{
+            if doNotCall(dialedNumber.text) {
+                dialedNumber.text = "Do not call this number."
+            } else {
+                //dialedNumber.text = "URL " + thePhoneNumber.text
+                let busPhone = thePhoneNumber.text
+                if let url = NSURL(string: "tel://\(busPhone)") {
+                    UIApplication.sharedApplication().openURL(url)
+                }
+            }
         }
     }
     
-    /*func callSellerPressed (sender: UIButton!){
-        var newPhone = ""
-        var busPhone = thePhoneNumber.text
-        for (var i = 0; i < countElements(busPhone); i++){
-            
-            var current:Int = i
-            switch (busPhone[i]){
-            case "0","1","2","3","4","5","6","7","8","9" : newPhone = newPhone + String(busPhone[i])
-            default : println("Removed invalid character.")
-            }
+    func doNotCall (phoneNumber: String) -> Bool {
+        //let url = NSURL(string: "http://70.167.231.132/CheckPhoneNumber/DoNotCall" + "?" + phoneNumber)
+        //let theRequest = NSURLRequest(URL: url!)
+        //NSURLConnection.sendAsynchronousRequest(theRequest, queue: nil, completionHandler: { (response: NSURLResponse!, data: NSData!, error: NSError!) -> Void in if data.length > 0 && error == nil { let response : AnyObject! = NSJSONSerialization.JSONObjectWithData(data, options: NSJSONReadingOptions.fromMask(0), error:nil)}})
+        
+        
+        let tf = Int(arc4random_uniform(2))
+        if tf == 1 {
+            return true
+        } else {
+            return false
         }
         
-        if  (busPhone.utf16Count > 1){
-            
-            UIApplication.sharedApplication().openURL(NSURL(string: "tel://" + newPhone)!)
-        }
-        else{
-            let alert = UIAlertView()
-            alert.title = "Sorry!"
-            alert.message = "Phone number is not available for this business"
-            alert.addButtonWithTitle("Ok")
-            alert.show()
-        }
-    } */
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
